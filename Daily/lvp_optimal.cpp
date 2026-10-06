@@ -30,7 +30,8 @@ public:
 int main(){
     Solution test1;
     string s1=")(()";
-    int result=test1.lvp(s1);
+    string s2=")())((()";
+    int result=test1.lvp(s2);
     cout<<"Result: "<<result<<endl;
     return 0;
 }
