@@ -35,7 +35,7 @@ public:
 };
 int main(){
     Solution test1;
-    string test_s1="(())()";
+    string test_s1=")())((()";
     bool result1=test1.vcp(test_s1);
     cout<<"Result: "<<result1<<endl;
     return 0;
