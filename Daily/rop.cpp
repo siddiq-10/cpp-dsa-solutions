@@ -21,7 +21,7 @@ public:
             }
             else{
                 if (index.size()==1){
-                    index.pop();
+                    index.pop();                    
                     continue;
                 }
                 else{
@@ -36,7 +36,7 @@ public:
 
 int main(){
     Solution test;
-    string s1="(()())(())(()(()))";
+    string s1="(()())(())(()(()))";                     //"()()()()(())"
     string result=test.rop(s1);
     cout<<"Result: "<<result<<endl;
     return 0;
