@@ -1,12 +1,20 @@
 // Minimum Sum of Squared Difference ~ reducing a difference by 1 gives a greater benefit when the difference is larger.
 #include<iostream>
 #include<vector>
+#include<queue>
 using namespace std;
 
 class Solution{
 public:
     long long mssd(vector<int> nums1, vector<int> nums2, int k1, int k2){
-
+        long long result=0;
+        int t=k1+k2;
+        priority_queue<int> maxHeap;
+        for (int i=0; i<nums1.size(); i++){
+            if (t!=0){
+                
+            }
+        }
     }
 };
 
